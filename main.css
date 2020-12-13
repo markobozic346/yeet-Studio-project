@@ -1,0 +1,248 @@
+/*Global content*/
+
+body,p,h1,h2,h3,h4,h5,h6,a{
+    padding: 0;
+    margin: 0;
+    color: #e94b3cff;
+    text-decoration: none;
+}
+span{
+    color: #e94b3cff;
+}
+
+
+/*----------------------START OF MAIN CONTENT---------------------------------*/
+#main-content{
+    background-color: #413d3b;
+    padding: 50px 80px 70px;
+
+}
+/* Navbar */
+li{
+    padding: 0px 10px;
+    font-size: 1.2rem;
+    
+}
+
+a:hover,h4{
+    color: white;
+}
+
+/* container*/
+
+.container-fluid {
+    padding: 20px 0px;
+    
+}
+.row{
+    /* making space between content and navbar */
+    padding-top: 50px;
+}
+
+/* heading */
+.heading{
+    letter-spacing: 0.15rem;
+    padding-bottom: 30px;
+    text-shadow: 1px 1px white;
+}
+.heading span{
+    color: white;
+    text-shadow: 1px 1px  #e94b3cff;
+}
+.sub-heading{
+    letter-spacing: 0.12;
+    padding-bottom: 30px;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: white;
+    
+}
+
+
+.header-img{
+    width: 500px;
+    /*making image right positioned*/
+    position: absolute;
+    right: 30px;
+
+}
+
+/* heading buttons*/
+.header-btn{
+    font-size: 1.2rem;
+  padding: 15 30px 15 30px;
+  border: 1px solid  #e94b3cff;
+  color: #e94b3cff;
+  background-color: none;
+    
+}
+.header-btn:hover{
+    background-color: #e94b3cff;
+    color: white;
+    border: 1px solid white;
+}
+.middle-btn{
+    margin: 0px 40px;
+}
+.header-btn img{
+    width: 30px;
+}
+
+/* Toggler color and icon*/
+.navbar-toggler{
+    border-color: #e94b3cff;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke=' rgba(175, 49, 37)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.bg-dark{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #413d3b;
+}
+/*----------------------END OF MAIN CONTENT---------------------------------*/
+
+/*----------------------START OD ABOUT US SECTION*--------------------------*/
+
+
+/* bg-dark also applied on contact us*/
+.bg-dark .title{
+    padding-top: 50px;
+    text-shadow: 1px 1px white;
+}
+.bg-dark .title span{
+    border: 2px solid white;
+    background-color: #413d3b;
+    border-radius: 10px;
+    padding: 0px 5px 5px;
+    margin-left: 2px;
+    
+}
+
+.about-text{
+    text-align: justify;
+    color: white;
+    font-size: 1.3rem;
+    
+    line-height: 1,2rem;
+    padding: 0 40px 50px 0;
+}
+.about-img{
+    width: 500px;
+    
+}
+.btn-left{
+   float: left;
+}
+.btn-right{
+    float: right;
+    margin-right: 40px;
+}
+/*----------------------END OF ABOUT US SECTION--------------------------------*/
+
+/*----------------------START OF GAMES SECTION---------------------------------*/
+
+#games, #team{
+    text-align: center;
+}
+.title{
+    padding: 100px 0 10px;
+    font-size: 2.5rem;
+ 
+}
+.title span{
+    background-color: #413d3b;
+    border-radius: 10px;
+    padding: 0px 5px 5px;
+    margin-left: 2px;
+    text-shadow: 1px 1px white;
+}
+
+.games-subtitle{
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+.games-btn{
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 15 30px 15 30px;
+  border: 1px solid  #e94b3cff;
+  color: #e94b3cff;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+ 
+}
+.games-btn:hover{
+background-color: #413d3b;
+color: white;
+border: 1px solid white;
+}
+
+/*----------------------END OF GAMES SECTION---------------------------------*/
+
+/*----------------------START OF TEAM SECTION---------------------------------*/
+.card{
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    /* border: 1px solid #e94b3cff; */
+    border-radius: 0;
+    height: 400px;
+ }
+.team-img{
+   margin: auto;
+    width: 120px;
+
+}
+.strength{
+    color: green;
+}
+.fear{
+    color: red;
+}
+/*-----------------------------------END OF TEAM SECTION---------------------------*/
+
+/*-------------------------------------START OF CONTACT SECTION-----------------------*/
+input{
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+label{
+    float: left;
+    
+}
+.contact-form{
+    padding: 0 100px 0 100px;
+}
+.social-icon{
+    width: 80px;
+    padding: 0;
+    
+}
+.social-icon:hover{
+    filter: brightness(180%);
+}
+
+.social-holder{
+    padding: 0;
+}
+/*------------------------------------END OF CONTACT US SECTION----------------------------------*/
+
+/*------------------------------------START OF FOOTER SECTION---------------------------------*/
+#footer{
+    height: 300px;
+    text-align: center;
+  
+
+}
+.footer-end{
+    text-align: center;
+    background-color: #413d3b;
+    
+}
+.footer-end p{
+    color: white;
+}
